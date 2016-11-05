@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  // background-color: #efefef;
+  background: #faf9f7; /* For browsers that do not support gradients */
+//   background: -webkit-linear-gradient(left top, #faf9f7, #dedbd0); /* For Safari 5.1 to 6.0 */
+//   background: -o-linear-gradient(bottom right, #faf9f7, #dedbd0); /* For Opera 11.1 to 12.0 */
+//   background: -moz-linear-gradient(bottom right, #faf9f7, #dedbd0); /* For Firefox 3.6 to 15 */
+//   background: linear-gradient(to bottom right, #faf9f7, #dedbd0); /* Standard syntax */
+}
+
+
+
+#root {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+  #root {
+    width: 80%;
+  }    
+}
+
+.inlineForm {
+  display: inline-block;
+}
+
+ul, li {
+  list-style-type: none;
+  list-style-position:inside;
+  margin:0;
+  padding:0
+}
